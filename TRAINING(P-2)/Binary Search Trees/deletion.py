@@ -77,4 +77,3 @@ for i in l:
     root=insertIntoBST(root,i)
 printbst(root)
 deleteNode(root,4)
-printbst(root)
