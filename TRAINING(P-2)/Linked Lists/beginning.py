@@ -3,11 +3,11 @@ class BOX:
     def __init__(self,data):
         self.data=data
         self.next=None
-def printLinkedList(curr):
-    while curr!=None:
-        print(curr)
-        print(curr.data)
-        curr=curr.next
+# def printLinkedList(curr):
+#     while curr!=None:
+#         print(curr)
+#         print(curr.data)
+#         curr=curr.next
 def insertAtTailNode(head,ele):
     temp=BOX(ele)
     if head==None:
