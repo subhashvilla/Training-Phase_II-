@@ -17,6 +17,6 @@ while left <= right:
         right = mid - 1 
  
 if found == True:
-    print("Target found")
+    print("Target")
 else:
-    print("Target Not found")
+    print("Target nf")
