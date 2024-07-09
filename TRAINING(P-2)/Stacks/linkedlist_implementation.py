@@ -1,17 +1,17 @@
-class Box:
-    def __init__(self, data):
-        self.data = data 
-        self.next = None
+# class Box:
+#     def __init__(self, data):
+#         self.data = data 
+#         self.next = None
  
-def printStack(curr):
-    if curr == None:
-        print("Stack is empty")
-        return 
+# def printStack(curr):
+#     if curr == None:
+#         print("Stack is empty")
+#         return 
  
-    while curr != None:
-        print(curr.data, end = " --> ")
-        curr = curr.next 
-    print()
+#     while curr != None:
+#         print(curr.data, end = " --> ")
+#         curr = curr.next 
+#     print()
  
 def pop(head):
     if head == None:
