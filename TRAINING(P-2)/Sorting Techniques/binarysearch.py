@@ -1,10 +1,10 @@
 # Binary Search 
  
-nums = [12, 34, 21, 23, 44, 56];
-target = 23
-nums = sorted(nums)
-left, right = 0, len(nums) - 1 
-found = False
+# nums = [12, 34, 21, 23, 44, 56];
+# target = 23
+# nums = sorted(nums)
+# left, right = 0, len(nums) - 1 
+# found = False
  
 # while left <= right:
 #     mid = (left + right) // 2 
